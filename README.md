@@ -1,1 +1,1 @@
-# Travel-blog---School-assignment
+# Travel-blog-School-assignment

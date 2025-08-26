@@ -1,0 +1,727 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+<script>
+$(document).ready(function(){
+$('#carouselAutoplaying2').hide();
+$('#carouselAutoplaying3').hide();
+
+$("#accomodations").click(function(){
+       $("#carouselAutoplaying").slideToggle("slow");
+       $('#carouselAutoplaying2').slideUp("slow");
+$('#carouselAutoplaying3').slideUp("slow");
+     });
+
+     $('#uniqueexperiences').click(function(){
+       $('#carouselAutoplaying2').slideToggle("slow");
+       $('#carouselAutoplaying').slideUp("slow");
+$('#carouselAutoplaying3').slideUp("slow");
+     });
+
+     $('#nightlife').click(function(){
+       $('#carouselAutoplaying3').slideToggle("slow");
+       $('#carouselAutoplaying').slideUp("slow");
+$('#carouselAutoplaying2').slideUp("slow");
+     });
+});
+</script>
+<style>
+  h1{
+      text-align: center; font-weight: bold;
+  }
+  h2{
+      text-align: center; color: rgb(136, 154, 172); font-size: large; font-weight: bold ; 
+  }
+  h3{
+      text-align: left; font-weight: bold;
+  }
+  
+  h4{
+      text-align: left; font-weight: bold;
+  }
+
+      </style>
+</head>
+
+<!--row 1: page title-->
+
+<div class="row p-3 bg-dark-subtle text-emphasis-dark">
+    <div class="col-lg-3 col-md-3 col-sm-3">
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <p></p>
+    <h1>Gallery</h1>
+    <p></p>
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-3">
+  </div>
+  </div>
+</div>
+
+<!--container 2 row 1: Accomodations-->
+
+<div id="accomodations">
+<div class="row p-1">
+  <div class="col-lg-3 col-md-3 col-sm-3">
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+  <p></p>
+  <h1>Accomodations</h1>
+  <h2>Hotel Grand Saigon</h2>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3">
+</div>
+</div>
+</div>
+</div>
+
+<!--container 2 row 2: Gallery-->
+
+<div class="row p-4">
+    <div class="col-xl-4 col-lg-2 col-md-1 col-sm-1">
+
+    </div>
+    <div class="col-xl-4 col-lg-8 col-md-10 col-sm-10">
+<div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/photo_2023-03-19_21-52-12.jpg" style="width: 720px; height: 405px" alt="...">  
+        <span class="d-block p-2 text-bg-dark">
+        <h5>Buffet</h5>
+        <p></p>
+        <body>The omelette with cheese and onion was really good!</body>
+          <p></p>
+        </span>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-53-01.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Pool</h5>
+          <p></p>
+          <body>Its shallow enough for kids, and usually empty in the afternoon!</body>
+            <p></p>
+          </span>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-52-09.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Seminar Room</h5>
+          <p></p>
+          <body>Gained access to this due to my internship. It can host 100 people!</body>
+            <p></p>
+          </span>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-52-12 (2).jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Outside</h5>
+          <p></p>
+          <body>This area is next to an apartment complex turned cafe hopping paradise (Dreamplex).</body>
+            <p></p>
+          </span>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <div class="col-xl-4 col-lg-2 col-md-1 col-sm-1">
+        
+  </div>
+</div>
+
+<!--container 3 row 1: Unique Experiences-->
+
+<div id="uniqueexperiences">
+<div class="row p-3 bg-dark-subtle text-emphasis-dark">
+  <div class="col-lg-3 col-md-3 col-sm-3">
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+  <p></p>
+  <h1>Unique Experiences</h1>
+  <h2>Elisa Floating Restaurant</h2>
+  <p></p>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3">
+</div>
+</div>
+</div>
+</div>
+
+<!--container 3 row 2: Gallery-->
+
+<div class="row p-2 bg-dark-subtle text-emphasis-dark">
+    <div class="col-xl-4 col-lg-2 col-md-1 col-sm-1">
+
+    </div>
+    <div class="col-xl-4 col-lg-8 col-md-10 col-sm-10">
+<div id="carouselAutoplaying2" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/photo_2023-03-19_21-55-20.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Dining by the water</h5>
+          <p></p>
+          <body>I had dinner here with my parents. Sit on the inner side of the tables to get a better view of the city skyline!</body>
+            <p></p>
+          </span>
+          <p></p>
+      </div>
+      
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-53-03.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Instagrammable spots</h5>
+          <p></p>
+          <body>Go to the hull of the ship for a pretty, Pirates of the Caribbean shoot!</body>
+            <p></p>
+          </span>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-55-19.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Basement</h5>
+          <p></p>
+          <body>You can request for access to the basement for events. It comes equipped with a karaoke machine!</body>
+            <p></p>
+          </span>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <div class="col-xl-4 col-lg-2 col-md-1 col-sm-1">
+        
+  </div>
+</div>
+
+<!--container 4 row 1: Night Life-->
+
+<div id="nightlife">
+<div class="row p-1">
+  <div class="col-lg-3 col-md-3 col-sm-3">
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6">
+  <p></p>
+  <h1>Night Life</h1>
+  <h2>ATMOS CLUB</h2>
+</div>
+<div class="col-lg-3 col-md-3 col-sm-3">
+</div>
+</div>
+</div>
+</div>
+
+<!--container 4 row 2: Gallery-->
+
+<div class="row p-4">
+    <div class="col-xl-4 col-lg-2 col-md-1 col-sm-1">
+
+    </div>
+    <div class="col-xl-4 col-lg-8 col-md-10 col-sm-10">
+<div id="carouselAutoplaying3" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/photo_2023-03-19_21-52-10.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Outdoors</h5>
+          <p></p>
+          <body>ATMOS holds outdoor raves outside its usual venue sometimes. The purple and pink lighting is perfect for fun pictures!</body>
+            <p></p>
+          </span>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-52-11.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Pool</h5>
+          <p></p>
+          <body>You can explore the building ATMOS CLUB is in earlier in the day. Like my colleague pictured, you can try finding gems like this Goku statue!</body>
+            <p></p>
+          </span>
+      </div>
+      <div class="carousel-item">
+        <img src="images/photo_2023-03-19_21-52-08.jpg" style="width: 720px; height: 405px" alt="...">
+        <span class="d-block p-2 text-bg-dark">
+          <h5>Food</h5>
+          <p></p>
+          <body>I ordered this burrata pizza on one visit. Reminds me of the one from Singapore's Peperoni!</body>
+            <p></p>
+          </span>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselAutoplaying3" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <div class="col-xl-4 col-lg-2 col-md-1 col-sm-1">
+        
+  </div>
+</div>
+
+</html>
+
+           <!--extra 2-->
+
+           <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-3 col-sm-3">
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <p></p>
+                <h1>Night Life</h1>
+                <h2>ATMOS CLUB</h2>
+                <p></p>
+              </div>
+              <div class="col-lg-4 col-md-3 col-sm-3">
+              </div>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="col-lg-1 col-md-1 col-sm-1">
+              </div>
+              <div class="col-lg-6 col-md-4 col-sm-11">
+                <h4>Trip Advisor Rating: ★★★★</h4>
+                <p></p>
+                <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+                  <p></p>
+                  The hotel was built in 1930 so you can bask in its European colonial luxury at every turn. Its facilities include a pool, gym, and salon. 
+                  <p></p>
+                  Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+          
+                </div>
+          
+              </div>
+              </div>
+
+                         <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        <p></p>
+        The hotel was built in 1930 so you can bask in its European colonial luxury at every turn. Its facilities include a pool, gym, and salon. 
+        <p></p>
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+               <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        <p></p>
+        The hotel was built in 1930 so you can bask in its European colonial luxury at every turn. Its facilities include a pool, gym, and salon. 
+        <p></p>
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+               <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+     <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+     <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+     <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+     <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+     <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+         <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+         <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+         <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>
+
+         <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+
+
+      </div>
+
+    </div>
+    </div>
+
+         <!--extra 2-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-6">
+      <p></p>
+      <h1>Night Life</h1>
+      <h2>ATMOS CLUB</h2>
+      <p></p>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-3">
+    </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-1 col-md-1 col-sm-1">
+    </div>
+    <div class="col-lg-6 col-md-4 col-sm-11">
+      <h4>Trip Advisor Rating: ★★★★</h4>
+      <p></p>
+      <body>This is at the heart of District One, overlooking the Saigon River. Opt for this hotel for access to your favourite food chains and local cuisine in under five minutes by foot!
+        Yi Jun's tip: Take advantage of the free breakfast buffet that comes with every booking! The spread is made by seasoned, local chefs.</body>
+
+      </div>
+
+    </div>
+    </div>

@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(215, 215, 215); font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center; color: slategrey; font-size: medium;
+}
+h3{
+    text-align: left;
+}
+td{
+    border: 1px solid #000;
+}
+#myTable{
+    width: 60%;border-collapse: collapse;background-color: #c2d7f4;
+}
+#Footer{
+    text-align:right;
+}
+p.title{
+    text-decoration: underline; font size: 20px; font-weight: bold;
+}
+.setColor{
+    color: #b607b0;
+}
